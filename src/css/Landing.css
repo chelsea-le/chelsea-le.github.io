@@ -1,0 +1,56 @@
+.landing h3 {
+  font-family: -webkit-pictograph;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10vh;
+  font-style: italic;
+  font-size: 23px;
+}
+
+/*name*/
+.landing h1 {
+  font-family: -webkit-body;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16vh;
+  font-style: italic;
+  font-size: 53px;
+  color: white;
+}
+
+/*key words under name*/
+.landing h2 {
+  font-family: -webkit-body;
+  font-weight: normal;
+  text-align: center;
+  margin-top: -3vh;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/*icon div*/
+.landing .icons {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+/*LinkedIn*/
+#linkedin {
+  color: #00008B;
+  font-size: 45px;
+  margin-right: 20px;
+}
+
+/*instagram icon*/
+#instagram {
+  color: #B22222;
+  font-size: 45px;
+  margin-right: 20px;
+}
+
+/*facebook icon*/
+#facebook {
+  color: blue;
+  font-size: 45px;
+  /*margin-right: 20px;*/
+}
