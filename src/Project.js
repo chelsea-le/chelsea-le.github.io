@@ -23,6 +23,8 @@ var Project = React.createClass({
                     {this.props.description}
                   </CardText>
                   <CardActions>
+                    {/* onclick opens up to project url */}
+                    {/* <FlatButton <a target="_blank" href={this.props.url}>- label="Open Project" </a> /> */}
                     <FlatButton label="Open Project" />
                     {/* <FlatButton label="Action2" /> */}
                   </CardActions>
