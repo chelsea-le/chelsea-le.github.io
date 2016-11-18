@@ -4,7 +4,7 @@
 
 -Purpose
 
--Link to student server: https://students.washington.edu/chele510/info343/a7-portfolio-chelsea-le/
+-Link to student server: https://students.washington.edu/chele510/info343/portfolio.github.io
 
 -Help & resources
 

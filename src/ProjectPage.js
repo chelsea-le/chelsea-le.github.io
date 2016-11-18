@@ -7,7 +7,7 @@ import $ from 'jquery';
 
 var ProjectPage = React.createClass({
   getInitialState(){
-    return{projects:[], currentProject:0}
+    return{projects:[]}
   },
 
   // When the component mounts, get (and parse) the data. Then set the state.
@@ -17,21 +17,22 @@ var ProjectPage = React.createClass({
       this.setState({projects:parsed.data})
     }.bind(this));
   },
-  // Function to set the state of the current video
-  chooseProject(id){
-    this.setState({currentProject:id})
-  },
 
     render() {
         return(
-            <div className="project">
-              {/* {this.state.projects.map(project, i)
-                return(<Project key={'project-' + i} title={projects.title} />)
-
-                )
-              }
-            } */}
-              <h1>For projects</h1>
+            <div className="projectPage">
+              <div>
+                {this.state.projects.map(function(project, i){
+                  console.log(project);
+                  return (<Project key={'project-' + i}
+                    title={project.title}
+                    date={project.date}
+                    description={project.description}
+                    screenshot={project.screenshot}
+                    contributors={project.contributors}
+                  />)
+                })}
+              </div>
             </div>
         )
     }
