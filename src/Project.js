@@ -4,6 +4,9 @@ import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'mat
 import FlatButton from 'material-ui/FlatButton';
 
 var Project = React.createClass({
+    openLink(url) {
+      window.open(url, "_blank")
+    },
     render() {
         return(
             <div>
@@ -24,8 +27,8 @@ var Project = React.createClass({
                   </CardText>
                   <CardActions>
                     {/* onclick opens up to project url */}
-                    {/* <FlatButton <a target="_blank" href={this.props.url}>- label="Open Project" </a> /> */}
-                    <FlatButton label="Open Project" />
+                    {/* <FlatButton > /> */}
+                    <FlatButton onClick={() => this.openLink(this.props.url)} label="Open Project" />
                     {/* <FlatButton label="Action2" /> */}
                   </CardActions>
                 </Card>

@@ -26,11 +26,12 @@ var ProjectPage = React.createClass({
                   console.log(project);
                   console.log(i);
                   return (<Project key={'project-' + i}
-                    title={project.title}
-                    date={project.date}
-                    description={project.description}
-                    screenshot={project.screenshot}
-                    contributors={project.contributors}
+                    title={project.Title}
+                    date={project.Date}
+                    description={project.Description}
+                    screenshot={project.Screenshot}
+                    contributors={project.Contributors}
+                    url={project.url}
                   />)
                 })}
               </div>
