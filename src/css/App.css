@@ -1,6 +1,13 @@
+html, #root {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #778899;
+}
+
 .App {
-    background: linear-gradient(#778899, #B0C4DE);
-    height: 100%;
 }
 
 .navbar {
