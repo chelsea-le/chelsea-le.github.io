@@ -8,6 +8,9 @@ var LandingPage = React.createClass({
         return(
             <div className="landing">
                 <h3>"It's not about what you have, but who you are and what you do."</h3>
+                <div className="portrait">
+                  <img id="portrait" src="imgs/chelsea.jpg" alt="Chelsea Le"/>
+                </div>
                 <h1>
                 {/* &#160; adds space between words */}
                     CHELSEA &#160;LE

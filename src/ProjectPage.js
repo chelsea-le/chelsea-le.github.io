@@ -24,7 +24,6 @@ var ProjectPage = React.createClass({
               <div>
                 {this.state.projects.map(function(project, i){
                   console.log(project);
-                  console.log(i);
                   return (<Project key={'project-' + i}
                     title={project.Title}
                     date={project.Date}

@@ -12,7 +12,7 @@
   font-family: -webkit-body;
   font-weight: bold;
   text-align: center;
-  margin-top: 16vh;
+  margin-top: 1vh;
   font-style: italic;
   font-size: 53px;
   color: white;
@@ -53,4 +53,12 @@
   color: blue;
   font-size: 45px;
   /*margin-right: 20px;*/
+}
+
+#portrait {
+  width: 10%;
+  height: 10%;
+  margin-left: 45%;
+  border-radius: 55%
+
 }
