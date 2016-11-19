@@ -5,9 +5,7 @@ var ResumePage = React.createClass({
     render() {
         return(
             <div className="resume">
-                <h1>
-                    Where I will show the resume and allow a download copy.
-                </h1>
+                <img id="resume" src="imgs/resume.png" alt="Oct 2016 resume"/>
             </div>
         )
     }
