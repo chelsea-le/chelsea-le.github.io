@@ -1,4 +1,3 @@
-// Video component -- show a youtube iframe
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
@@ -12,12 +11,12 @@ var Project = React.createClass({
             <div>
               <Card className="project-card">
                   <CardHeader
-                    title={this.props.contributors}
-                    subtitle="Contributor(s)"
+                    title="Contributor(s):"
+                    subtitle={this.props.contributors}
                     avatar="imgs/chelsea.jpg"
                   />
                   <CardMedia
-                    overlay={<CardTitle title={this.props.title} subtitle={this.props.date} />}
+                    overlay={<CardTitle title={this.props.title} subtitle={this.props.skills} />}
                   >
                     <img src={'imgs/' + this.props.screenshot} />
                   </CardMedia>
@@ -26,10 +25,7 @@ var Project = React.createClass({
                     {this.props.description}
                   </CardText>
                   <CardActions>
-                    {/* onclick opens up to project url */}
-                    {/* <FlatButton > /> */}
-                    <FlatButton onClick={() => this.openLink(this.props.url)} label="Open Project" />
-                    {/* <FlatButton label="Action2" /> */}
+                    <FlatButton onClick={() => this.openLink(this.props.url)} label="Open Project"/>
                   </CardActions>
                 </Card>
             </div>

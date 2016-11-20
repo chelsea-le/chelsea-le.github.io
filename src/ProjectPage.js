@@ -31,6 +31,7 @@ var ProjectPage = React.createClass({
                     screenshot={project.Screenshot}
                     contributors={project.Contributors}
                     url={project.url}
+                    skills={project.Skills}
                   />)
                 })}
               </div>
