@@ -1,4 +1,3 @@
-// Landing page -- what users see on arrival
 import React from 'react';
 import './css/Project.css'
 import Project from './Project';

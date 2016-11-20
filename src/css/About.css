@@ -1,7 +1,12 @@
-.about h1 {
-    font-family:sans-serif;
-    font-weight:100;
-    text-align: center;
-    margin-top:40vh;
-    font-style: italic;
+.about-card {
+  width:30%;
+  height: 20%;
+  /*margin: auto;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 140px;
+  float: left;
+  display:block;
+
 }
