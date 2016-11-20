@@ -2,7 +2,7 @@
   font-family: -webkit-pictograph;
   font-weight: normal;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 8vh;
   font-style: italic;
   font-size: 23px;
 }
@@ -59,5 +59,6 @@
   width: 10%;
   height: 10%;
   margin-left: 45%;
-  border-radius: 55%
+  border-radius: 55%;
+  margin-top:5px;
 }
