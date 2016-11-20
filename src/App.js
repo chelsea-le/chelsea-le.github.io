@@ -1,4 +1,6 @@
-// Application
+// app -- what creates link between all page paths
+
+//importing documents in to be used in this page
 import React from 'react';
 import logo from './logo.svg';
 import './css/App.css';
@@ -10,6 +12,7 @@ import '../node_modules/font-awesome/css/font-awesome.css'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
+//main component that connects and links all pages together
 var App = React.createClass({
 	render() {
 		// Return links and show anything inside the <App> component (children)
@@ -27,4 +30,5 @@ var App = React.createClass({
 	}
 });
 
+//allows page to be accessed by other pages
 export default App;

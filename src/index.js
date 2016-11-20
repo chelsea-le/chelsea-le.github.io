@@ -1,3 +1,4 @@
+//importing documents in to be used in this page
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -10,6 +11,7 @@ import ResumePage from './ResumePage';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 // Render DOM -- wrapper in MuiThemeProvider for material-ui elements
+//creates route path for pages to connect
 ReactDOM.render(
     <MuiThemeProvider>
         <Router history={hashHistory}>

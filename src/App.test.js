@@ -1,3 +1,4 @@
+//importing documents in to be used in this page
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

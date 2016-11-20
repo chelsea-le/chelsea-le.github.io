@@ -1,9 +1,13 @@
+//project page --
+
+//importing documents in to be used in this page
 import React from 'react';
 import './css/Project.css'
 import Project from './Project';
 import Baby from 'babyparse';
 import $ from 'jquery';
 
+//main component for ProjectPage where states are set and pieces from Project.js is rendered
 var ProjectPage = React.createClass({
   getInitialState(){
     return{projects:[]}
@@ -16,7 +20,7 @@ var ProjectPage = React.createClass({
       this.setState({projects:parsed.data})
     }.bind(this));
   },
-
+    //renders all pieces from projects.csv file
     render() {
         return(
             <div className="projectPage">
@@ -39,4 +43,5 @@ var ProjectPage = React.createClass({
     }
 });
 
+//allow this page to be accessed by other pages
 export default ProjectPage;

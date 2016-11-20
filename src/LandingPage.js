@@ -1,8 +1,11 @@
 // Landing page -- what users see on arrival
+
+//importing documents in to be used in this page
 import React from 'react';
 import './css/Landing.css'
 import '../node_modules/font-awesome/css/font-awesome.css'
 
+//main component for LandingPage and rendering the pieces of it
 var LandingPage = React.createClass({
     render() {
         return(

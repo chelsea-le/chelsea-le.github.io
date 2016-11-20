@@ -1,6 +1,10 @@
-// Landing page -- what users see on arrival
+// resume page -- displays img of resume
+
+//importing documents in to be used in this page
 import React from 'react';
 import './css/Resume.css'
+
+//component that renders resume png
 var ResumePage = React.createClass({
     render() {
         return(
@@ -11,4 +15,5 @@ var ResumePage = React.createClass({
     }
 });
 
+//exports resume page to be used in other files
 export default ResumePage;

@@ -1,12 +1,18 @@
+/*entire page of website - div inside body section*/
 html, #root {
   height: 100%;
 }
 
+/*body section with the styles of the background*/
 body {
   min-height: 100%;
-  background: #B0C4DE;
+  min-width: 100%;
+  /*background: #B0C4DE;*/
+  background-image: url("../../public/imgs/seattle.png");
+  opacity: 20;
 }
 
+/*heading navigation bar*/
 .navbar {
     border-bottom:1px solid #778899;
     background: white;
@@ -16,6 +22,7 @@ body {
     padding-left:20px;
 }
 
+/*button pages of website*/
 a.link {
     color:black;
     text-decoration:none;
@@ -23,10 +30,12 @@ a.link {
     opacity:.4;
 }
 
+/*when page is active*/
 a.link.active {
     opacity:1;
 }
 
+/*active page vs other pages*/
 a > i {
     opacity:1;
 }

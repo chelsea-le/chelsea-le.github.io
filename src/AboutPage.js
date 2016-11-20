@@ -1,9 +1,11 @@
+//importing documents in to be used in this page
 import React from 'react';
 import './css/About.css'
 import About from './About';
 import Baby from 'babyparse';
 import $ from 'jquery';
 
+//main component for AboutPage where states are set and pieces from About.js is rendered
 var AboutPage = React.createClass({
   getInitialState(){
     return{abouts:[]}
@@ -16,7 +18,7 @@ var AboutPage = React.createClass({
       this.setState({abouts:parsed.data})
     }.bind(this));
   },
-
+    //renders all pieces from abouts.csv file
     render() {
         return(
             <div className="AboutPage">
@@ -35,4 +37,5 @@ var AboutPage = React.createClass({
     }
 });
 
+//allows this page to be accessed by other pages
 export default AboutPage;
