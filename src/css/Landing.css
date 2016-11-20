@@ -1,10 +1,11 @@
+/*quote*/
 .landing h3 {
   font-family: -webkit-pictograph;
   font-weight: normal;
   text-align: center;
-  margin-top: 8vh;
+  margin-top: 6vh;
   font-style: italic;
-  font-size: 23px;
+  font-size: 35px;
 }
 
 /*name*/
@@ -14,7 +15,7 @@
   text-align: center;
   margin-top: 1vh;
   font-style: italic;
-  font-size: 53px;
+  font-size: 63px;
   color: white;
 }
 
@@ -25,7 +26,7 @@
   text-align: center;
   margin-top: -3vh;
   font-style: italic;
-  font-size: 20px;
+  font-size: 27px;
 }
 
 /*icon div*/
@@ -37,28 +38,27 @@
 /*LinkedIn*/
 #linkedin {
   color: #00008B;
-  font-size: 45px;
+  font-size: 55px;
   margin-right: 20px;
 }
 
 /*instagram icon*/
 #instagram {
   color: #B22222;
-  font-size: 45px;
+  font-size: 55px;
   margin-right: 20px;
 }
 
 /*facebook icon*/
 #facebook {
   color: blue;
-  font-size: 45px;
-  /*margin-right: 20px;*/
+  font-size: 55px;
 }
 
 #portrait {
-  width: 10%;
-  height: 10%;
-  margin-left: 45%;
+  width: 12%;
+  height: 12%;
+  margin-left: 44%;
   border-radius: 55%;
-  margin-top:5px;
+  margin-top:4px;
 }
