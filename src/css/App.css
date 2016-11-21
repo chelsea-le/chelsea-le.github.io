@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /*entire page of website - div inside body section*/
 html, #root {
   height: 100%;
@@ -22,9 +26,10 @@ body {
 .navbar {
     border-bottom:1px solid #778899;
     background: white;
+    /*height: 35px;*/
     width:100%;
-    height:35px;
     padding-top:14px;
+    padding-bottom:14px;
     padding-left:20px;
 }
 
